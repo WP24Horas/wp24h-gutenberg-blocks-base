@@ -1,0 +1,8 @@
+.wp-block-wp24h-hello {
+  padding: 1rem;
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+}
+.wp-block-wp24h-hello.is-highlighted {
+  background: #cdeeff;
+}
