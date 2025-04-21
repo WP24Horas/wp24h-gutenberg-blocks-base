@@ -1,0 +1,27 @@
+{
+  "apiVersion": 2,
+  "name": "wp24h/card",
+  "title": "Card Personalizado WP24H",
+  "category": "widgets",
+  "icon": "format-image",
+  "description": "Um card com imagem, título, descrição e botão. Com componentes React e atributos compostos.",
+  "editorScript": "file:../../dist/card.js",
+  "style": "file:./style.css",
+  "editorStyle": "file:./editor.css",
+  "attributes": {
+    "imagem": { "type": "string", "default": "" },
+    "titulo": { "type": "string", "default": "Título do card" },
+    "descricao": { "type": "string", "default": "Descrição do conteúdo do card." },
+    "botao": {
+      "type": "object",
+      "default": {
+        "texto": "Saiba mais",
+        "url": "#"
+      }
+    }
+  },
+  "supports": {
+    "align": true,
+    "html": false
+  }
+}
